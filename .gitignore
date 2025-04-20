@@ -1,0 +1,38 @@
+# Ignore Jupyter temporary files
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environments
+.env
+.venv/
+venv/
+env/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+.DS_Store
+
+# Ignore model files
+models/
+*.pt
+*.pth
+*.pkl
+*.joblib
+
+# Ignore logs and outputs
+logs/
+output/
+outputs/
+
+# Ignore common output directories
+data/processed/
+output/
+outputs/
+logs/
+models/
